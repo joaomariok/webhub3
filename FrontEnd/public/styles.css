@@ -1,0 +1,119 @@
+/* App.js */
+.App {
+	background-color: #eeeeee;
+	color: #222831;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+/* Header */
+header {
+	background-color: #222831;
+	color: #eeeeee;
+	padding: 2% 12%;
+}
+
+.titulo {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	color: inherit;
+	text-decoration: none;
+	padding: 2% 10px;
+}
+
+.titulo:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Links */
+body {
+	background-color: #eeeeee;
+	color: #222831;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+#lists {
+ 	padding: 3% 15%;
+}
+
+.edit-mode {
+	/*visibility: hidden;*/
+	font-size: 0.8rem;
+}
+
+.delete-btn {
+	display: inline;
+}
+
+.item-ico {
+	width: 30px;
+	height: 30px;
+}
+
+.item-txt {
+	padding-left: 10px;
+	font-weight: bold;
+	color: #222831;
+}
+
+.item-txt:hover {
+	text-decoration: none;
+	color: #00adb5;
+}
+
+.nav-link {
+	font-weight: bold;
+}
+
+.list-group-item {
+	background-color: #eeeeee;
+}
+
+.nav-pills > a {
+	background-color: #eeeeee;
+	color: #222831;
+	}
+	
+.nav-pills > a:hover {
+	background-color: #eeeeee;
+	color: #00adb5;
+	}
+	
+.nav-pills .nav-link.active {
+	background-color: #00adb5;
+	color: #eeeeee;
+	}
+
+/* Footer */
+footer {
+	background-color: #222831;
+    color: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.rodape {
+	color: inherit;
+	text-decoration: none;
+}
+
+.rodape:hover {
+	color: #00adb5;
+	text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.titulo {
+		font-size: 2rem;
+    }
+
+    body {
+		font-size: 0.9rem;
+    }
+}
