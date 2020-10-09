@@ -14,11 +14,11 @@ function Links(props) {
     var linksReturn = lists.map((linkGroup, index) => {
         var dataGroups = defaultData.filter((d) => {
             return d.list === linkGroup;
-        })
+        });
         var isFirst = (index === 0) ? true : false;
         return (
             <LinkGroup key={index} linkGroup={dataGroups} listName={linkGroup} isFirst={isFirst} />
-        )
+        );
     })
 
     return (

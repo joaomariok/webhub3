@@ -2,7 +2,7 @@ import React from "react"
 
 function Header() {
     return (
-        <header className="header">
+        <header>
             <div className="container">
                 <a className="titulo" href="#">WebHub</a>
                 <small className="text-muted">by JoaoMarioK</small>

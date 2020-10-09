@@ -11,16 +11,15 @@ function Lists(props) {
         }
     }
     
-    var listsReturn = lists.map((list, index) => {
-        var isFirst = (index === 0) ? true : false;
-        return (
-            <List key={index} list={list} isFirst={isFirst}/>
-        )
-    })
     return (
         <div className="col-md-3 col-4">
             <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                {listsReturn}
+                {
+                    lists.map((list, index) => {
+                        var isFirst = (index === 0) ? true : false;
+                        return (<List key={index} list={list} isFirst={isFirst}/>);
+                    })
+                }
             </div>
         </div>
     )

@@ -12,7 +12,6 @@ class Favorites extends Component {
         };
     }
     
-
     componentDidMount() {
         fetch("http://localhost:3333")
         .then(res => res.json())
@@ -23,9 +22,9 @@ class Favorites extends Component {
     }
 
     render() {
-        console.log(this.state.defaultData.length);
+        //console.log(this.state.defaultData.length);
         return (
-            <div id="lists">
+            <div id="lists" className="content">
                 <div className="container-sm">
                     <div className="row">
                         <Lists defaultData={this.state.defaultData} />
