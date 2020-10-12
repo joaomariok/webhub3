@@ -1,13 +1,26 @@
 const express = require("express");
+const fs = require("fs");
 const Router = express.Router;
-const defaultData = require("./default.json");
 
 const lowdb = require("lowdb");
 const FileSync = require('lowdb/adapters/FileSync')
 
-const adapter = new FileSync('db.json')
+const adapter = new FileSync('./db.json', {
+    serialize: (data) => JSON.stringify(data),
+    deserialize: (data) => JSON.parse(data)
+})
 const db = lowdb(adapter);
-db.defaults({links: defaultData}).write();
+
+// const defaultData = require("./default.json");
+function readFile(path) {
+    return JSON.parse(fs.readFileSync(path, 'utf8', (err, data) => {
+        if (err) throw err;
+        console.log(data);
+    }));
+}
+var defaultData = readFile("default.json");
+
+db.defaults({links: []}).write();
 
 const routes = Router()
 
@@ -21,7 +34,7 @@ function simpleResString(res) {
 /*
  * GET all links in the database
  */
-routes.get("/", (req, res) => {
+routes.get("/api", (req, res) => {
     console.log(simpleResString(res));
     res.json(db
         .get("links")
@@ -33,7 +46,7 @@ routes.get("/", (req, res) => {
 /*
  * DELETE all links in the database
  */
-routes.delete("/", (req, res) => {
+routes.delete("/api", (req, res) => {
     console.log(simpleResString(res));
 
     db.get("links")
@@ -47,18 +60,12 @@ routes.delete("/", (req, res) => {
 /*
  * DELETE all links in the database, and reset it to default values
  */
-routes.delete("/reset", (req, res) => {
+routes.delete("/api/reset", (req, res) => {
     console.log(simpleResString(res));
 
-    db.get("links")
-        .remove()
-        .write()
+    defaultData = readFile("default.json");
 
-    for (var index in defaultData) {
-        db.get("links")
-            .push(defaultData[index])
-            .write();
-    }
+    db.set("links", defaultData).write();
 
     res.status(200).json();
 });
@@ -67,7 +74,7 @@ routes.delete("/reset", (req, res) => {
 /*
  * GET all links on a list in the database
  */
-routes.get("/lists/:list", (req, res) => {
+routes.get("/api/lists/:list", (req, res) => {
     console.log(simpleResString(res));
 
     const allLists = db
@@ -88,7 +95,7 @@ routes.get("/lists/:list", (req, res) => {
 /*
  * DELETE all links on a list in the database
  */
-routes.delete("/lists/:list", (req, res) => {
+routes.delete("/api/lists/:list", (req, res) => {
     console.log(simpleResString(res));
     const listToDelete = req.params.list;
 
@@ -117,7 +124,7 @@ routes.delete("/lists/:list", (req, res) => {
 /*
  * GET all lists in the database
  */
-routes.get("/lists", (req, res) => {
+routes.get("/api/lists", (req, res) => {
     console.log(simpleResString(res));
 
     const allLists = db
@@ -125,12 +132,7 @@ routes.get("/lists", (req, res) => {
         .map("list")
         .value()
 
-    var lists = [];
-    for (let index in allLists) {
-        if (!lists.includes(allLists[index])) {
-            lists.push(allLists[index]);
-        }
-    }
+    const lists = [...(new Set(allLists))];
     
     res.json(lists);
 });
@@ -139,7 +141,7 @@ routes.get("/lists", (req, res) => {
 /*
  * POST a link to the database
  */
-routes.post("/link", (req, res) => {
+routes.post("/api/link", (req, res) => {
     console.log(simpleResString(res));
 
     const receivedLink = req.body;
@@ -186,7 +188,7 @@ routes.post("/link", (req, res) => {
 /*
  * DELETE a link with a certain ID in the database
  */
-routes.delete("/link/:id", (req, res) => {
+routes.delete("/api/link/:id", (req, res) => {
     console.log(simpleResString(res));
 
     const idToDelete = req.params.id;
@@ -208,7 +210,7 @@ routes.delete("/link/:id", (req, res) => {
 /*
  * GET a link with a certain ID in the database
  */
-routes.get("/link/:id", (req, res) => {
+routes.get("/api/link/:id", (req, res) => {
     console.log(simpleResString(res));
 
     const idToGet = req.params.id;
@@ -227,12 +229,11 @@ routes.get("/link/:id", (req, res) => {
 /*
  * PUT (modify) a link with a certain ID in the database
  */
-routes.put("/link/:id", (req, res) => {
+routes.put("/api/link/:id", (req, res) => {
     console.log(simpleResString(res));
 
     const idToMod = req.params.id;
     const receivedLink = req.body;
-
     const linkToMod = db
         .get("links")
         .find({ id: parseInt(idToMod) })

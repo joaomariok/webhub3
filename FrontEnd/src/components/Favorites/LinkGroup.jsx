@@ -2,11 +2,20 @@ import React from "react"
 import Link from "./Link"
 
 function LinkGroup(props) {
-    var data = props.linkGroup;
-    var isFirst = (props.isFirst) ? " active" : "";
-    var linkGroupReturn = data.map((link, index) => {
+    const data = props.linkGroup;
+    const isFirst = (props.isFirst) ? " active" : "";
+    const linkGroupReturn = data.map((link, index) => {
         return (
-            <Link key={index} icon={link.icon} link={link.link} name={link.name} />
+            <Link 
+                key={link.id}
+                id={link.id}
+                icon={link.icon} 
+                link={link.link} 
+                name={link.name} 
+                list={link.list}
+                isLoggedIn={props.isLoggedIn}
+                reloadHandler={props.reloadHandler}
+            />
         )
     });
     return (

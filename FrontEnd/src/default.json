@@ -1,242 +1,242 @@
 [
-		{
-			"list": "Home",
-			"name": "Trello",
-			"link": "https://trello.com/b/n2EeAJLY/organização-pessoal",
-			"icon": "https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-72x72-precomposed.91a3a04ec68a60903801.png"
-		},
-		{
-			"list": "Home",
-			"name": "Gmail",
-			"link": "https://mail.google.com/mail/u/0/#inbox",
-			"icon": "https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico"
-		},
-		{
-			"list": "Home",
-			"name": "Google Agenda",
-			"link": "https://calendar.google.com/calendar/r",
-			"icon": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
-		},
-		{
-			"list": "Home",
-			"name": "Google Drive",
-			"link": "https://drive.google.com/drive/u/0/my-drive",
-			"icon": "https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico"
-		},
-		{
-			"list": "Home",
-			"name": "Spotify Web",
-			"link": "https://open.spotify.com",
-			"icon": "https://open.scdn.co/cdn/images/favicon.5cb2bd30.ico"
-		},
-		{
-			"list": "Home",
-			"name": "GitHub",
-			"link": "https://github.com",
-			"icon": "https://github.githubassets.com/favicon.ico"
-		},
-		{
-			"list": "Sociais",
-			"name": "Facebook",
-			"link": "https://www.facebook.com",
-			"icon": "https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico"
-		},
-		{
-			"list": "Sociais",
-			"name": "Twitter",
-			"link": "https://twitter.com/home",
-			"icon": "https://abs.twimg.com/favicons/twitter.ico"
-		},
-		{
-			"list": "Sociais",
-			"name": "Instagram",
-			"link": "https://www.instagram.com",
-			"icon": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png"
-		},
-		{
-			"list": "Sociais",
-			"name": "Reddit",
-			"link": "https://www.reddit.com",
-			"icon": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png"
-		},
-		{
-			"list": "Sociais",
-			"name": "LinkedIn",
-			"link": "https://www.linkedin.com/feed/",
-			"icon": "https://static-exp2.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca"
-		},
-		{
-			"list": "Entrete",
-			"name": "YouTube",
-			"link": "https://www.youtube.com",
-			"icon": "https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png"
-		},
-		{
-			"list": "Entrete",
-			"name": "Twitch",
-			"link": "https://www.twitch.tv/",
-			"icon": "https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png"
-		},
-		{
-			"list": "Entrete",
-			"name": "Crunchyroll",
-			"link": "https://www.crunchyroll.com/home/queue",
-			"icon": "https://www.crunchyroll.com/favicons/favicon-32x32.png"
-		},
-		{
-			"list": "Entrete",
-			"name": "Anime-Planet Animes",
-			"link": "https://www.anime-planet.com/users/joaomariok/anime/watching?sort=year&order=desc",
-			"icon": "https://www.anime-planet.com/favicon-32x32.png?v=WGowMEAKpM"
-		},
-		{
-			"list": "Entrete",
-			"name": "Anime-Planet Mangás",
-			"link": "https://www.anime-planet.com/users/joaomariok/manga/reading",
-			"icon": "https://www.anime-planet.com/favicon-32x32.png?v=WGowMEAKpM"
-		},
-		{
-			"list": "Entrete",
-			"name": "MAL Schedule",
-			"link": "https://myanimelist.net/anime/season/schedule",
-			"icon": "https://cdn.myanimelist.net/images/favicon.ico"
-		},
-		{
-			"list": "Entrete",
-			"name": "Netflix",
-			"link": "https://www.netflix.com/browse",
-			"icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
-		},
-		{
-			"list": "Entrete",
-			"name": "Prime Video",
-			"link": "https://www.primevideo.com/ref=av_auth_return_redir?_encoding=UTF8&ie=UTF8&page=1&sort=TITLE_ASC",
-			"icon": "https://images-na.ssl-images-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-32x32._CB527404566_.png"
-		},
-		{
-			"list": "Cursos",
-			"name": "UNIVESP",
-			"link": "https://login.univesp.br",
-			"icon": "https://cursos.univesp.br/accounts/1/files/143/download?verifier=HKLrVsx3JEPH7Ug37gKRhyeAZOyWEAVKJbDsti6l"
-		},
-		{
-			"list": "Cursos",
-			"name": "Duolingo",
-			"link": "https://www.duolingo.com/learn",
-			"icon": "https://d35aaqx5ub95lt.cloudfront.net/favicon.ico"
-		},
-		{
-			"list": "Cursos",
-			"name": "Udemy",
-			"link": "https://www.udemy.com/home/my-courses/learning/",
-			"icon": "https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png"
-		},
-		{
-			"list": "Cursos",
-			"name": "Danki Code",
-			"link": "https://cursos.dankicode.com/campus/curso-dev-games?last",
-			"icon": "https://cursos.dankicode.com/app/Views/public/favicon.ico"
-		},
-		{
-			"list": "Compras",
-			"name": "Planilha Mangás",
-			"link": "https://docs.google.com/spreadsheets/d/1FORuoRGoXI-KOm_rSrXaALXGXfq6Qv-2/",
-			"icon": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"
-		},
-		{
-			"list": "Compras",
-			"name": "Twitter Mangás",
-			"link": "https://twitter.com/i/lists/1296162402770223104",
-			"icon": "https://abs.twimg.com/favicons/twitter.ico"
-		},
-		{
-			"list": "Compras",
-			"name": "Amazon",
-			"link": "https://www.amazon.com.br/gp/css/order-history",
-			"icon": "http://www.amazon.com/favicon.ico"
-		},
-		{
-			"list": "Piratas",
-			"name": "Yi-Fy Torrent",
-			"link": "https://yts.lt",
-			"icon": ""
-		},
-		{
-			"list": "Piratas",
-			"name": "AnimeUltima",
-			"link": "https://www17.animeultima.eu",
-			"icon": ""
-		},
-		{
-			"list": "Piratas",
-			"name": "AnimePahe",
-			"link": "https://animepahe.com",
-			"icon": ""
-		},
-		{
-			"list": "Piratas",
-			"name": "DarkAnime",
-			"link": "https://darkanime.stream/animes/",
-			"icon": ""
-		},
-		{
-			"list": "Piratas",
-			"name": "AnimeFreak",
-			"link": "https://www.animefreak.tv",
-			"icon": ""
-		},
-		{
-			"list": "Piratas",
-			"name": "Outros",
-			"link": "https://acethinker.com/download-video/websites-like-kissanime.html",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "Vinland Saga",
-			"link": "https://www.primevideo.com/detail/0JCBAQM21T35H8URDVGEMXG1XX/",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "Fruits Basket",
-			"link": "https://darkanime.stream/animes/fruits-basket-2019",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "0 Maidens in Your Savage Season",
-			"link": "https://darkanime.stream/animes/araburu-kisetsu-no-otome-domo-yo",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "Astra Lost in Space",
-			"link": "https://darkanime.stream/animes/kanata-no-astra",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "AP Quanto Antes",
-			"link": "https://www.anime-planet.com/users/joaomariok/lists/quanto-antes-manga-423063?",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "AP Pornhwa",
-			"link": "https://www.anime-planet.com/manga/all?include_tags=906,735&exclude_tags=1036,1040",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "AP Best Mangás/Manhwas",
-			"link": "https://www.anime-planet.com/manga/all?exclude_tags=1036,334,818",
-			"icon": ""
-		},
-		{
-			"list": "Animes",
-			"name": "Manhwa18",
-			"link": "https://manhwa18.com/index.html",
-			"icon": ""
-		}
-	]
+	{
+		"list": "Home",
+		"name": "Trello",
+		"link": "https://trello.com/b/n2EeAJLY/organização-pessoal",
+		"icon": "https://a.trellocdn.com/prgb/dist/images/ios/apple-touch-icon-72x72-precomposed.91a3a04ec68a60903801.png"
+	},
+	{
+		"list": "Home",
+		"name": "Gmail",
+		"link": "https://mail.google.com/mail/u/0/#inbox",
+		"icon": "https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico"
+	},
+	{
+		"list": "Home",
+		"name": "Google Agenda",
+		"link": "https://calendar.google.com/calendar/r",
+		"icon": "https://calendar.google.com/googlecalendar/images/favicon_v2018_256.png"
+	},
+	{
+		"list": "Home",
+		"name": "Google Drive",
+		"link": "https://drive.google.com/drive/u/0/my-drive",
+		"icon": "https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico"
+	},
+	{
+		"list": "Home",
+		"name": "Spotify Web",
+		"link": "https://open.spotify.com",
+		"icon": "https://open.scdn.co/cdn/images/favicon.5cb2bd30.ico"
+	},
+	{
+		"list": "Home",
+		"name": "GitHub",
+		"link": "https://github.com",
+		"icon": "https://github.githubassets.com/favicon.ico"
+	},
+	{
+		"list": "Sociais",
+		"name": "Facebook",
+		"link": "https://www.facebook.com",
+		"icon": "https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico"
+	},
+	{
+		"list": "Sociais",
+		"name": "Twitter",
+		"link": "https://twitter.com/home",
+		"icon": "https://abs.twimg.com/favicons/twitter.ico"
+	},
+	{
+		"list": "Sociais",
+		"name": "Instagram",
+		"link": "https://www.instagram.com",
+		"icon": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png"
+	},
+	{
+		"list": "Sociais",
+		"name": "Reddit",
+		"link": "https://www.reddit.com",
+		"icon": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png"
+	},
+	{
+		"list": "Sociais",
+		"name": "LinkedIn",
+		"link": "https://www.linkedin.com/feed/",
+		"icon": "https://static-exp2.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca"
+	},
+	{
+		"list": "Entrete",
+		"name": "YouTube",
+		"link": "https://www.youtube.com",
+		"icon": "https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png"
+	},
+	{
+		"list": "Entrete",
+		"name": "Twitch",
+		"link": "https://www.twitch.tv/",
+		"icon": "https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png"
+	},
+	{
+		"list": "Entrete",
+		"name": "Crunchyroll",
+		"link": "https://www.crunchyroll.com/home/queue",
+		"icon": "https://www.crunchyroll.com/favicons/favicon-32x32.png"
+	},
+	{
+		"list": "Entrete",
+		"name": "Anime-Planet Animes",
+		"link": "https://www.anime-planet.com/users/joaomariok/anime/watching?sort=year&order=desc",
+		"icon": "https://www.anime-planet.com/favicon-32x32.png?v=WGowMEAKpM"
+	},
+	{
+		"list": "Entrete",
+		"name": "Anime-Planet Mangás",
+		"link": "https://www.anime-planet.com/users/joaomariok/manga/reading",
+		"icon": "https://www.anime-planet.com/favicon-32x32.png?v=WGowMEAKpM"
+	},
+	{
+		"list": "Entrete",
+		"name": "MAL Schedule",
+		"link": "https://myanimelist.net/anime/season/schedule",
+		"icon": "https://cdn.myanimelist.net/images/favicon.ico"
+	},
+	{
+		"list": "Entrete",
+		"name": "Netflix",
+		"link": "https://www.netflix.com/browse",
+		"icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+	},
+	{
+		"list": "Entrete",
+		"name": "Prime Video",
+		"link": "https://www.primevideo.com/ref=av_auth_return_redir?_encoding=UTF8&ie=UTF8&page=1&sort=TITLE_ASC",
+		"icon": "https://images-na.ssl-images-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-32x32._CB527404566_.png"
+	},
+	{
+		"list": "Cursos",
+		"name": "UNIVESP",
+		"link": "https://login.univesp.br",
+		"icon": "https://cursos.univesp.br/accounts/1/files/143/download?verifier=HKLrVsx3JEPH7Ug37gKRhyeAZOyWEAVKJbDsti6l"
+	},
+	{
+		"list": "Cursos",
+		"name": "Duolingo",
+		"link": "https://www.duolingo.com/learn",
+		"icon": "https://d35aaqx5ub95lt.cloudfront.net/favicon.ico"
+	},
+	{
+		"list": "Cursos",
+		"name": "Udemy",
+		"link": "https://www.udemy.com/home/my-courses/learning/",
+		"icon": "https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png"
+	},
+	{
+		"list": "Cursos",
+		"name": "Danki Code",
+		"link": "https://cursos.dankicode.com/campus/curso-dev-games?last",
+		"icon": "https://cursos.dankicode.com/app/Views/public/favicon.ico"
+	},
+	{
+		"list": "Compras",
+		"name": "Planilha Mangás",
+		"link": "https://docs.google.com/spreadsheets/d/1FORuoRGoXI-KOm_rSrXaALXGXfq6Qv-2/",
+		"icon": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"
+	},
+	{
+		"list": "Compras",
+		"name": "Twitter Mangás",
+		"link": "https://twitter.com/i/lists/1296162402770223104",
+		"icon": "https://abs.twimg.com/favicons/twitter.ico"
+	},
+	{
+		"list": "Compras",
+		"name": "Amazon",
+		"link": "https://www.amazon.com.br/gp/css/order-history",
+		"icon": "http://www.amazon.com/favicon.ico"
+	},
+	{
+		"list": "Piratas",
+		"name": "Yi-Fy Torrent",
+		"link": "https://yts.lt",
+		"icon": ""
+	},
+	{
+		"list": "Piratas",
+		"name": "AnimeUltima",
+		"link": "https://www17.animeultima.eu",
+		"icon": ""
+	},
+	{
+		"list": "Piratas",
+		"name": "AnimePahe",
+		"link": "https://animepahe.com",
+		"icon": ""
+	},
+	{
+		"list": "Piratas",
+		"name": "DarkAnime",
+		"link": "https://darkanime.stream/animes/",
+		"icon": ""
+	},
+	{
+		"list": "Piratas",
+		"name": "AnimeFreak",
+		"link": "https://www.animefreak.tv",
+		"icon": ""
+	},
+	{
+		"list": "Piratas",
+		"name": "Outros",
+		"link": "https://acethinker.com/download-video/websites-like-kissanime.html",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "Vinland Saga",
+		"link": "https://www.primevideo.com/detail/0JCBAQM21T35H8URDVGEMXG1XX/",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "Fruits Basket",
+		"link": "https://darkanime.stream/animes/fruits-basket-2019",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "0 Maidens in Your Savage Season",
+		"link": "https://darkanime.stream/animes/araburu-kisetsu-no-otome-domo-yo",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "Astra Lost in Space",
+		"link": "https://darkanime.stream/animes/kanata-no-astra",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "AP Quanto Antes",
+		"link": "https://www.anime-planet.com/users/joaomariok/lists/quanto-antes-manga-423063?",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "AP Pornhwa",
+		"link": "https://www.anime-planet.com/manga/all?include_tags=906,735&exclude_tags=1036,1040",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "AP Best Mangás/Manhwas",
+		"link": "https://www.anime-planet.com/manga/all?exclude_tags=1036,334,818",
+		"icon": ""
+	},
+	{
+		"list": "Animes",
+		"name": "Manhwa18",
+		"link": "https://manhwa18.com/index.html",
+		"icon": ""
+	}
+]

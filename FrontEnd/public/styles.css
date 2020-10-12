@@ -22,7 +22,7 @@ body {
 	background-color: #eeeeee;
 	color: #222831;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 
 	display: flex;
 	flex-flow: column;
@@ -39,7 +39,7 @@ header {
 }
 
 #lists {
-	padding: 3% 15%;
+	padding: 3% 20%;
 
 	flex: 1 1 auto;
 }
@@ -74,13 +74,67 @@ footer {
 }
 
 /* Links */
-.edit-mode {
+.edit-mode-btn {
 	/*visibility: hidden;*/
-	font-size: 0.8rem;
+	font-size: 0.7rem;
+	margin: auto 3px;
 }
 
 .delete-btn {
-	display: inline;
+	/* display: inline; */
+	float: right;
+}
+
+.edit-link-btn {
+	color: #00adb5;
+	border: #00adb5 solid 1px;
+	float: right;
+}
+
+.edit-link-btn:hover {
+	background-color: #00adb5;
+	color: #eeeeee;
+}
+
+.add-link-btn {
+	color: #00adb5;
+	border: #00adb5 solid 1px;
+	margin: 5px;
+}
+
+.add-link-btn:hover {
+	background-color: #00adb5;
+	color: #eeeeee;
+}
+
+.edit-btn {
+	font-size: 0.7rem;
+	color: #00adb5;
+	border: #00adb5 solid 1px;
+
+	margin: auto 5px;
+
+	float: right;
+}
+
+.edit-btn:hover {
+	background-color: #00adb5;
+	color: #eeeeee;
+}
+
+.reset-btn {
+	font-size: 0.7rem;
+	color:#dc3545;
+	border:#dc3545 solid 1px;
+
+	margin: auto 5px;
+
+	float: right;
+}
+
+.reset-btn:hover {
+	background-color:#dc3545;
+	color: #eeeeee;
 }
 
 .item-ico {
@@ -133,10 +187,65 @@ footer {
 	text-decoration: none;
 }
 
+/* Novo Link Form */
+.popup-overlay {
+	background-color:  rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+	width: 60%;
+}
+
+.form-div {
+	text-align: center;
+	background-color: #eeeeee;
+	border:#00adb5 solid 1px;
+	padding: 15px;
+}
+
+.form-div input {
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.form-group .col-sm-10 {
+	
+	padding-right: 7%;
+}
+
+.send-form-button {
+	color: #00adb5;
+	border: #00adb5 solid 1px;
+}
+
+.send-form-button:hover {
+	background-color: #00adb5;
+	color: #eeeeee;
+}
+
 /* Responsividade */
+@media (max-width: 1280px) {
+	.App {
+		font-size: 1rem;
+	}
+
+	#lists {
+		padding: 2% 12%;
+	}
+
+	.popup-content {
+		width: 80%;
+	}
+}
+
 @media (max-width: 768px) {
 	header {
 		padding: 2% 15%;
+	}
+
+	.edit-mode-btn {
+		font-size: 0.6rem;
 	}
 	
 	#lists {
