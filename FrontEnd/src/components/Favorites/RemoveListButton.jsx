@@ -3,7 +3,9 @@ import axios from "axios";
 
 
 function RemoveListButton(props) {
-    const removeLink = async () => {
+    const removeList = async () => {
+        if (!window.confirm(`Deseja deletar lista "${props.listName}"?`)) return;
+
         await axios.delete(`/api/lists/${props.listName}`)
         .then(res => {
             console.log(res.data)
@@ -16,7 +18,7 @@ function RemoveListButton(props) {
         <button 
             type="submit" 
             className="edit-mode-btn delete-btn btn-danger btn btn-sm ui icon button"
-            onClick={removeLink}
+            onClick={removeList}
         >
             X
         </button>

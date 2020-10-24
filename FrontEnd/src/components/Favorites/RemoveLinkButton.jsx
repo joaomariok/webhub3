@@ -4,6 +4,8 @@ import axios from "axios";
 
 function RemoveLinkButton(props) {
     const removeLink = async () => {
+        if (!window.confirm(`Deseja deletar link "${props.name}"?`)) return;
+
         await axios.delete(`/api/link/${props.id}`)
         .then(res => {
             console.log(res.data)

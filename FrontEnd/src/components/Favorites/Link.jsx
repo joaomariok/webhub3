@@ -4,6 +4,8 @@ import EditLinkButton from "./EditLinkButton"
 
 function Link(props) {
     const getFavicon = (fUrl) => {
+        // Se o começo de fUrl não for igual a http:// ou https://, inclua isso
+
         const getDomain = (url) => { return url.match(/:\/\/(.[^/]+)/)[1] };
 
         return `https://api.faviconkit.com/${getDomain(fUrl)}/192`
@@ -36,6 +38,7 @@ function Link(props) {
                 props.isLoggedIn &&
                 <RemoveLinkButton 
                     id={props.id}
+                    name={props.name}
                     reloadHandler={props.reloadHandler}
                 />
             }

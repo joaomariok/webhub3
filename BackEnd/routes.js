@@ -30,6 +30,33 @@ function simpleResString(res) {
 }
 
 
+/*
+ * POST login
+ */
+routes.post("/login", (req, res) => {
+    console.log(simpleResString(res));
+
+    const body = req.body;
+
+    if (body.pass !== "1234") return res.status(403).json();
+
+    res.status(200).json();
+});
+
+
+/*
+ * POST change password
+ */
+routes.post("/changepassword", (req, res) => {
+    console.log(simpleResString(res));
+    
+    const body = req.body;
+
+    if (body.pass !== "1234") return res.status(403).json();
+
+    res.status(200).json();
+});
+
 
 /*
  * GET all links in the database
